@@ -7,7 +7,12 @@ import {
   Theme,
   StyledEngineProvider,
 } from "@mui/material";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
+import de from 'date-fns/locale/de';
 
+// eslint-disable-next-line
+// @ts-expect-error
 declare module "@mui/styles/defaultTheme" {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
   interface DefaultTheme extends Theme {}
@@ -26,7 +31,9 @@ function App() {
       <Router>
         <StyledEngineProvider injectFirst>
           <ThemeProvider theme={theme}>
-            <UserPanel />
+            <LocalizationProvider dateAdapter={AdapterDateFns} adapterLocale={de}>
+              <UserPanel />
+            </LocalizationProvider>
           </ThemeProvider>
         </StyledEngineProvider>
       </Router>

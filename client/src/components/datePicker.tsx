@@ -1,5 +1,5 @@
 import styles from "./datePicker.module.css";
-import { DatePicker } from "@mui/lab";
+import { DatePicker } from "@mui/x-date-pickers";
 import React from "react";
 
 interface Props {
@@ -11,11 +11,6 @@ const MyDatePicker: React.FC<Props> = (props) => {
   return (
     <DatePicker
       className={styles.datePicker}
-      style={{
-        backgroundColor: "#00000017",
-        borderTopLeftRadius: "4px",
-        borderTopRightRadius: "4px",
-      }}
       label={"Datum"}
       format="dd/MM/yyyy"
       value={props.date}
