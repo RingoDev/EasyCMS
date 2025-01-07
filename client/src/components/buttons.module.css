@@ -1,17 +1,18 @@
 .minusButton {
-    padding: 2rem 0.5rem;
-    background-color: #d45151;
+  padding: 2rem 0.5rem;
+  background-color: #d45151;
 }
 
 .plusButton {
-    padding: 0.5rem 2rem;
-    background-color: #56a756;
+  padding: 0.5rem 2rem;
+  background-color: #56a756;
 }
 
-.plusButton, .minusButton {
-    color: white;
-    border: none;
-    line-height: 50%;
-    border-radius: 1rem;
-    cursor: pointer;
+.plusButton,
+.minusButton {
+  color: white;
+  border: none;
+  line-height: 50%;
+  border-radius: 1rem;
+  cursor: pointer;
 }
