@@ -1,0 +1,60 @@
+.input {
+    resize: none;
+    background-color: rgb(238, 238, 238);
+    width: 30ch;
+    /*border-radius: 10px;*/
+    /*margin:0.5rem;*/
+    text-indent: 4px;
+    border: 1px solid #dddddd;
+    padding:0.5rem 0.25rem
+}
+
+.input[type=date] {
+    width: calc(30ch - 18px);
+}
+
+.entry {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    /*background-color: var(--clr-primary);*/
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px 0 #77777777;
+    overflow:hidden;
+}
+
+.entries {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.both {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 0;
+    max-width: 30ch;
+}
+
+.both > *{
+    flex: 1 0 50%
+}
+
+/*.narrowEntry .both{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+

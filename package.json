@@ -1,0 +1,11 @@
+{
+  "name": "meetup",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "packageManager": "yarn@4.6.0"
+}

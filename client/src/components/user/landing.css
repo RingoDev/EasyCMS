@@ -1,0 +1,20 @@
+.containerL {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding:3rem;
+}
+
+.containerL *{
+    color:white !important;
+}
+
+.containerL > * {
+    flex-basis: 25%;
+
+}
+
+.containerL button {
+    padding: 5rem;
+    background-color:#9c9c9c
+}
