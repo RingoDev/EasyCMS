@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import useResizeHandle from "../hooks/useResizeHandle";
 import useWindowSize from "../hooks/useWindowSize";
-import { Button } from "@material-ui/core";
+import { Button } from "@mui/material";
 
 interface ResizableColumnsParams {
   width: number;

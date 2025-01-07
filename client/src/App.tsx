@@ -1,17 +1,34 @@
 import React from "react";
 import UserPanel from "./components/user-panel";
 import { BrowserRouter as Router } from "react-router-dom";
-import { createMuiTheme, ThemeProvider } from "@material-ui/core";
+import {
+  createTheme,
+  ThemeProvider,
+  Theme,
+  StyledEngineProvider,
+} from "@mui/material";
 
-const theme = createMuiTheme();
+declare module "@mui/styles/defaultTheme" {
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
+  interface DefaultTheme extends Theme {}
+}
+
+declare module "@mui/styles/defaultTheme" {
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
+  interface DefaultTheme extends Theme {}
+}
+
+const theme = createTheme();
 
 function App() {
   return (
     <div>
       <Router>
-        <ThemeProvider theme={theme}>
-          <UserPanel />
-        </ThemeProvider>
+        <StyledEngineProvider injectFirst>
+          <ThemeProvider theme={theme}>
+            <UserPanel />
+          </ThemeProvider>
+        </StyledEngineProvider>
       </Router>
     </div>
   );

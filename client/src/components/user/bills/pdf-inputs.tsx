@@ -1,4 +1,4 @@
-import { FilledInput, FormControl, InputLabel } from "@material-ui/core";
+import { FilledInput, FormControl, InputLabel } from "@mui/material";
 import React from "react";
 import { Entry, PDFProps } from "./bills";
 import Controls from "./controls";

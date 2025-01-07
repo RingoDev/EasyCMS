@@ -1,5 +1,5 @@
 import styles from "./datePicker.module.css";
-import { DatePicker } from "@material-ui/pickers";
+import { DatePicker } from "@mui/lab";
 import React from "react";
 
 interface Props {
@@ -19,7 +19,7 @@ const MyDatePicker: React.FC<Props> = (props) => {
       label={"Datum"}
       format="dd/MM/yyyy"
       value={props.date}
-      onChange={(v) => {
+      onChange={(v: any) => {
         if (v !== null) {
           props.setDate(new Date(v.getTime()));
         }

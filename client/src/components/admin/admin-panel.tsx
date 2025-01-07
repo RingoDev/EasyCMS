@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Component, Vessel } from "../types/types";
-import WarningIcon from "@material-ui/icons/Warning";
+import { Component, Vessel } from "../../types/types";
+import WarningIcon from "@mui/icons-material/Warning";
 import {
   AppBar,
   Breadcrumbs,
@@ -17,9 +17,9 @@ import {
   ListItemIcon,
   ListItemText,
   Typography,
-} from "@material-ui/core";
+} from "@mui/material";
 import { Route, Link as RouterLink } from "react-router-dom";
-import VesselPanel from "./admin/vessel-panel";
+import VesselPanel from "./vessel-panel";
 
 const AdminPanel = () => {
   useEffect(() => {

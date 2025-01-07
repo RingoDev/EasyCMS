@@ -1,12 +1,12 @@
-import { Button } from "@material-ui/core";
+import { Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { usePDF } from "@react-pdf/renderer";
 import BillDocument from "./bill-document";
-import GetAppIcon from "@material-ui/icons/GetApp";
+import GetAppIcon from "@mui/icons-material/GetApp";
 import printJS from "print-js";
-import PrintIcon from "@material-ui/icons/Print";
+import PrintIcon from "@mui/icons-material/Print";
 import { Link as RouterLink } from "react-router-dom";
-import ArrowBackIcon from "@material-ui/icons/ArrowBack";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import PDFInputs from "./pdf-inputs";
 import ResizableColumns from "../../resizableColumns";
 import Preview from "./preview";

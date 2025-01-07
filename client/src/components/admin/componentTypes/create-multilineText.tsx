@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import { ComponentTypes, MultilineText } from "../../../types/types";
-import {
-  Button,
-  FilledInput,
-  FormControl,
-  InputLabel,
-} from "@material-ui/core";
+import { Button, FilledInput, FormControl, InputLabel } from "@mui/material";
 
 const CreateMultilineText: React.FC<{
   name: string;
