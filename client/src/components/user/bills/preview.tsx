@@ -1,11 +1,11 @@
 import { Document, Page, pdfjs } from "react-pdf";
 import React, { useMemo, useState } from "react";
-import ReactPDF from "@react-pdf/renderer";
+import { UsePDFInstance } from "@react-pdf/renderer";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Preview: React.FC<{
-  instance: ReactPDF.UsePDFInstance;
+  instance: UsePDFInstance;
   width: number;
 }> = ({ instance, width }) => {
   return (
