@@ -40,7 +40,7 @@ const AdminPanel = () => {
   const createVessel = (vessel: Vessel) => {
     axios
       .put<Vessel>("http://localhost:5000/api/vessel", vessel)
-      .then((r) => {
+      .then((_) => {
         axios
           .get<Vessel[]>("http://localhost:5000/api/vessel")
           .then((r) => {
@@ -89,7 +89,7 @@ const AdminPanel = () => {
               <List>
                 {vessels.map((v, index) => (
                   <RouterLink key={index} to={v.slug}>
-                    <ListItem button key={index}>
+                    <ListItem key={index}>
                       <ListItemIcon>
                         <WarningIcon />
                       </ListItemIcon>
