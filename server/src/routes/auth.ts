@@ -1,9 +1,10 @@
 import express from "express";
 import UserController from "../services/UserController";
 import jwt from "jsonwebtoken";
-import { jwtSecret } from "../services/jwtSetup";
 import { Roles } from "../types/roles";
 import { User } from "../schemas/User";
+
+const jwtSecret = process.env.JWT_SECRET!;
 
 const router = express.Router();
 

@@ -1,0 +1,179 @@
+{
+  "showInfo": true,
+  "currentMenu": {
+    "name": "Kitchen to go",
+    "dishes": [
+      {
+        "name": "Spargelcordon mit Petersilienkartoffeln und Salat",
+        "price": 14.5,
+        "allergens": []
+      },
+      {
+        "name": "Kalbsrahmbeuscherl mit Semmelknödel",
+        "price": 13.5,
+        "allergens": []
+      },
+      {
+        "name": "Gulaschsaft (pro Portion)",
+        "price": 3.5,
+        "allergens": []
+      },
+      {
+        "name": "Schnitzerl mit Petersilkartofferl oder Pommes",
+        "price": 12.9,
+        "allergens": []
+      },
+      {
+        "name": "Cordon Bleu mit Kartoffeln und Salat",
+        "price": 13.9,
+        "allergens": []
+      },
+      {
+        "name": "Bauern Cordon Bleu mit Kartoffeln und Salat",
+        "price": 14.9,
+        "allergens": []
+      },
+      {
+        "name": "Gulasch mit Knödel",
+        "price": 10.5,
+        "allergens": []
+      },
+      {
+        "name": "Stöffelburger mit Steakpommes",
+        "price": 10.5,
+        "allergens": []
+      },
+      {
+        "name": "Tellerfleisch",
+        "price": 7.8,
+        "allergens": []
+      },
+      {
+        "name": "Rindssuppe (1 Liter)",
+        "price": 5,
+        "allergens": []
+      },
+      {
+        "name": "Stockfischsuppe",
+        "price": 9.5,
+        "allergens": []
+      },
+      {
+        "name": "Spargelcremesuppe",
+        "price": 4,
+        "allergens": []
+      },
+      {
+        "name": "Kaspressknödelsuppe",
+        "price": 4,
+        "allergens": []
+      }
+    ]
+  },
+  "infoText": "Hallo",
+  "infoTitle": "Wir suchen Verstärkung",
+  "titleImage": {
+    "src": "http://localhost:3001/img/titelbild.jpg",
+    "alt": "Gasthof Stöffelbauer",
+    "height": 3000,
+    "width": 4512
+  },
+  "greetingHeading": "Griaß eich",
+  "greeting": "Unser Gasthaus ist ein echter Familienbetrieb. 1949 gründete Michael Stöffelbauer Sen. den Betrieb, der 1984 von seinem Sohn Michael Stöffelbauer Jun. übernommen wurde. Mit der von Martina Stöffelbauer exzellent geführten gutbürgerlichen Küche entwickelte sich der Gasthof zu einem beliebten Fixpunkt in der regionalen kulinarischen Landschaft.",
+  "familyPicture": {
+    "src": "http://localhost:3001/img/Familie.jpg",
+    "alt": "Familie Stöffelbauer",
+    "height": 2460,
+    "width": 3700
+  },
+  "openingHoursHeading": "Unsere Öffnungszeiten",
+  "openingHoursText": "Mittwoch 17:00 - 23:00 Uhr\nDo - Sa 10:00 - 14:00 Uhr\n17:00 - 23:00 Uhr\nSonn- und Feiertag 10:00 - 14:00 Uhr\n\nKüche geöffnet: 11:30 - 14:00 Uhr\n18:00 - 21:00 Uhr",
+  "gallery": [
+    {
+      "src": "/img/dishes/Burger.jpg",
+      "alt": "Stefflburger",
+      "height": 2826,
+      "width": 4250
+    },
+    {
+      "src": "/img/dishes/Gemusepalatschinken.JPG",
+      "alt": "Gemüsepalatschinken",
+      "height": 3000,
+      "width": 4512
+    },
+    {
+      "src": "/img/dishes/Ripperl.JPG",
+      "alt": "Ripperl",
+      "height": 2849,
+      "width": 4285
+    },
+    {
+      "src": "/img/dishes/Schnitzel.JPG",
+      "alt": "Schnitzel",
+      "height": 2792,
+      "width": 4312
+    },
+    {
+      "src": "/img/dishes/Spargelcordon.JPG",
+      "alt": "Spargelcordon",
+      "height": 3000,
+      "width": 4512
+    }
+  ],
+  "openingHours": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [
+      {
+        "start": "17:00",
+        "end": "23:00"
+      }
+    ],
+    "thursday": [
+      {
+        "start": "10:00",
+        "end": "14:00"
+      },
+      {
+        "start": "17:00",
+        "end": "23:00"
+      }
+    ],
+    "friday": [
+      {
+        "start": "10:00",
+        "end": "14:00"
+      },
+      {
+        "start": "17:00",
+        "end": "23:00"
+      }
+    ],
+    "saturday": [
+      {
+        "start": "10:00",
+        "end": "14:00"
+      },
+      {
+        "start": "17:00",
+        "end": "23:00"
+      }
+    ],
+    "sunday": [
+      {
+        "start": "10:00",
+        "end": "14:00"
+      }
+    ],
+    "kitchen": [
+      {
+        "start": "11:30",
+        "end": "14:00"
+      },
+      {
+        "start": "18:00",
+        "end": "21:00"
+      }
+    ]
+  }
+}

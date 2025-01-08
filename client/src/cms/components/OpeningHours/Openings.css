@@ -1,0 +1,21 @@
+#timeLeft {
+  /*width: 20%;*/
+  height: 3rem;
+  /*margin-left: 15rem;*/
+  background-color: rgb(238, 238, 238);
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#timeRight {
+  /*width: 20%;*/
+  height: 3rem;
+  /*margin-right: 9rem;*/
+  background-color: rgb(238, 238, 238);
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  border-radius: 10px;
+}

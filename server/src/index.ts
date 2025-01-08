@@ -59,6 +59,7 @@ app
         if (incomingOrigin !== undefined) {
           const origins = [
             "http://localhost:3000",
+            "http://localhost:*",
             "https://easycms.netlify.app",
             "https://stefflwirt.web-stories.at",
           ];
@@ -116,7 +117,7 @@ app
   // handles image upload needs permissions
   .use("/api/image", imageRouter);
 
-const port = process.env.PORT ?? 5000;
+const port = process.env.PORT!;
 
 app.listen(port, () => {
   console.log("Started App on http://localhost:" + port);

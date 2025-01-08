@@ -1,0 +1,39 @@
+{
+  "headingRooms": "Unsere Zimmer",
+  "contentRooms": "Wir bieten Übernachtungsmöglichkeiten an unserem Gasthof an. Bei unseren Zimmern handelt es sich um sehr einfache Einzel-, Doppel- oder Dreibettzimmer. Außerdem haben wir auch eine Ferienwohnung für 4 Personen anzubieten. Im Preis inkludiert ist ein einfaches Frühstück in unserem Gasthof.",
+  "headingPrice": "Preise",
+  "prices": "Einzelzimmer 41 ,- p.P\n\nDoppelzimmer 36 ,- p.P\n\nDreibettzimmer 36 ,- p.P\n\nFerienwohnung 41 ,- p.P",
+  "infoText": "Preise inkl. Frühstück",
+  "images": [
+    {
+      "src": "/img/rooms/Zimmer1.jpg",
+      "width": 4512,
+      "height": 3000
+    },
+    {
+      "src": "/img/rooms/Zimmer2.jpg",
+      "width": 4512,
+      "height": 3000
+    },
+    {
+      "src": "/img/rooms/Zimmer5.jpg",
+      "width": 4512,
+      "height": 3000
+    },
+    {
+      "src": "/img/rooms/Zimmer6.jpg",
+      "width": 4512,
+      "height": 3000
+    },
+    {
+      "src": "/img/rooms/Zimmer7.jpg",
+      "width": 4512,
+      "height": 3000
+    },
+    {
+      "src": "/img/rooms/Zimmer8.jpg",
+      "width": 4512,
+      "height": 3000
+    }
+  ]
+}

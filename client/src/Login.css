@@ -1,0 +1,40 @@
+.Login {
+  height: 40%;
+  width: 40%;
+  max-height: calc(100vh - 4rem);
+  background-color: rgb(238, 238, 238);
+  border-radius: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.Login input {
+  width: 70% !important;
+  justify-content: center;
+  background-color: white;
+  border: #77777777 1px solid;
+}
+
+.Login p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #777777;
+  margin-top: 0.3rem;
+}
+
+.Login button {
+  /*height: 13%;*/
+  /*width: 30%;*/
+  padding: 1rem 2rem;
+  background-color: #45777e;
+  border-radius: 0.4rem;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

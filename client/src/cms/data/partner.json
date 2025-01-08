@@ -1,0 +1,50 @@
+{
+  "heading": "Unsere Partner",
+  "categories": [
+    {
+      "name": "Fleisch",
+      "partners": [
+        {
+          "name": "Ellegast GesmbH",
+          "address": "Hauptplatz 5, 3350 Haag"
+        }
+      ]
+    },
+    {
+      "name": "Most",
+      "partners": [
+        {
+          "name": "Familie Stöckler",
+          "address": "Edelhof 40, 3350 Haag"
+        }
+      ]
+    },
+    {
+      "name": "Schnaps",
+      "partners": [
+        {
+          "name": "Georg Hiebl",
+          "address": "Reichhub 36, 3350 Haag"
+        }
+      ]
+    },
+    {
+      "name": "Brot und Gebäck",
+      "partners": [
+        {
+          "name": "Bäckerei Kammerhofer",
+          "address": "Wienerstraße 15, 3350 Haag"
+        }
+      ]
+    },
+    {
+      "name": "Mehl",
+      "partners": [
+        {
+          "name": "Reitbauer Betriebs- & Handels GmbH",
+          "address": "Vestenthal 19, 4431 Haidershofen"
+        }
+      ]
+    }
+  ]
+}

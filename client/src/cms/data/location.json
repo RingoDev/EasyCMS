@@ -1,0 +1,98 @@
+{
+  "locations": [
+    {
+      "heading": "Das Extrazimmer",
+      "content": "Das Extrazimmer ist nicht nur ideal für kleine Feiern wie Taufe, Geburtstage usw. sondern auch ein idealer Platz für schöne Abende zu zweit oder für ein Mittagessen mit den Kollegen. Insgesamt können hier ca. 30 Personen Platz nehmen.",
+      "images": [
+        {
+          "src": "/img/location/DSC_1307.JPG",
+          "width": 4512,
+          "height": 3000
+        },
+        {
+          "src": "/img/location/DSC_0991.JPG",
+          "width": 4512,
+          "height": 3000
+        }
+      ]
+    },
+    {
+      "heading": "Der Saal",
+      "content": "In unserem großem Saal werden sowohl Weihnachtsfeiern, Geburtstage als auch kleine Hochzeiten gefeiert. Weiters bietet er an Sonntagen beim Frühschoppen einen perfekten Platz für unsere Stammtische. Ein kleines Special hier ist unser Billardtisch, an dem sich abends unsere Gäste gerne ein Match bieten.",
+      "images": [
+        {
+          "src": "/img/location/DSC_1308.JPG",
+          "width": 4512,
+          "height": 3000
+        },
+        {
+          "src": "/img/location/DSC_1310.JPG",
+          "width": 4512,
+          "height": 3000
+        },
+        {
+          "src": "/img/location/DSC_1311.JPG",
+          "width": 4512,
+          "height": 3000
+        },
+        {
+          "src": "/img/location/DSC_1312.JPG",
+          "width": 4512,
+          "height": 3000
+        },
+        {
+          "src": "/img/location/DSC_1319.JPG",
+          "width": 4512,
+          "height": 3000
+        }
+      ]
+    },
+    {
+      "heading": "Das Gastzimmer",
+      "content": "Unser Gastzimmer ist eine gute Möglichkeit mit Leuten ins Gespräch zu kommen. Hier haben etliche Stammtische ihren Platz und auch mittags finden sich immer wieder Gäste ihren Platz im gemütlichen Stüberl, welches Platz für etwa 25 Personen bietet.",
+      "images": [
+        {
+          "src": "/img/location/DSC_1365.JPG",
+          "width": 4512,
+          "height": 3000
+        },
+        {
+          "src": "/img/location/DSC_1367.JPG",
+          "width": 4512,
+          "height": 3000
+        },
+        {
+          "src": "/img/location/DSC_1369.JPG",
+          "width": 4512,
+          "height": 3000
+        }
+      ]
+    },
+    {
+      "heading": "Der Gastgarten",
+      "content": "Der Gastgarten vor dem Haus ist perfekt an warmen Tagen zum Mittagessen oder den Abend schön ausklingen zu lassen.",
+      "images": [
+        {
+          "src": "/img/location/DSC_0994.JPG",
+          "width": 4512,
+          "height": 3000
+        },
+        {
+          "src": "/img/location/DSC_1003.JPG",
+          "width": 4512,
+          "height": 3000
+        },
+        {
+          "src": "/img/location/DSC_0999.JPG",
+          "width": 4512,
+          "height": 3000
+        },
+        {
+          "src": "/img/location/DSC_1001.JPG",
+          "width": 4512,
+          "height": 3000
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
-import React from "react";
-import UserPanel from "./components/user-panel";
+import React, { useContext } from "react";
+import NavPanel from "./shared/nav-panel";
 import { BrowserRouter as Router } from "react-router-dom";
 import {
   createTheme,
@@ -9,6 +9,7 @@ import {
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFnsV3";
 import { de } from "date-fns/locale/de";
+import AuthWrapper from "./cms/AuthWrapper";
 
 const theme = createTheme();
 
@@ -22,7 +23,9 @@ function App() {
               dateAdapter={AdapterDateFns}
               adapterLocale={de}
             >
-              <UserPanel />
+              <AuthWrapper>
+                <NavPanel />
+              </AuthWrapper>
             </LocalizationProvider>
           </ThemeProvider>
         </StyledEngineProvider>

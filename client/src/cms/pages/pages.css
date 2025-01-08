@@ -1,0 +1,23 @@
+/* Layout sollte für alle Pages gleich sein*/
+.Lokal,
+.Zimmer,
+.Kontakt,
+.Home,
+.Küche,
+.Partner {
+  padding: 2rem 1rem 2rem 1rem;
+  position: relative;
+}
+
+
+@media (min-width: 800px) {
+  .Lokal,
+  .Zimmer,
+  .Kontakt,
+  .Home,
+  .Küche,
+  .Partner {
+    padding: 3rem 5rem 3rem 3rem;
+    position: relative;
+  }
+}

@@ -1,0 +1,19 @@
+.imageOverlay {
+  top: 0;
+  z-index: 1;
+  position: absolute;
+  background-color: #ffffff88;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.galleryContainer:hover > .imageOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galleryContainer {
+  position: relative;
+}

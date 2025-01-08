@@ -1,0 +1,27 @@
+.minus:hover {
+  box-shadow: 0 0 5px red;
+}
+
+.plus:hover {
+  box-shadow: 0 0 7px green;
+}
+
+.minus {
+  background-color: red;
+}
+
+.plus {
+  background-color: green;
+}
+
+.plus,
+.minus {
+  margin: 0.25rem;
+  padding: 0.5rem;
+
+  color: white;
+  border: none;
+  line-height: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+}

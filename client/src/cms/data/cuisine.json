@@ -1,0 +1,312 @@
+{
+  "heading": "Unsere Speisekarte",
+  "menu": [
+    {
+      "name": "Suppen",
+      "dishes": [
+        {
+          "name": "Frittatensuppe",
+          "allergens": [
+            "A",
+            "C",
+            "G",
+            "L"
+          ],
+          "price": 3.5
+        },
+        {
+          "name": "Kaspressknödelsuppe",
+          "allergens": [
+            "A",
+            "C",
+            "G",
+            "L"
+          ],
+          "price": 4
+        },
+        {
+          "name": "Knoblauchcremesuppe",
+          "allergens": [
+            "G",
+            "L"
+          ],
+          "price": 4
+        }
+      ]
+    },
+    {
+      "name": "Kleine Gerichte",
+      "dishes": [
+        {
+          "name": "Gebackene Hühnerbruststreifen auf gemischtem Saltteller",
+          "allergens": [
+            "A",
+            "C"
+          ],
+          "price": 9.5
+        },
+        {
+          "name": "Garnelen im Kartoffelnest auf gemischtem Salatteller",
+          "allergens": [
+            "B",
+            "D"
+          ],
+          "price": 10.5
+        },
+        {
+          "name": "Kalter Tafelspitz in Balsamico",
+          "allergens": [
+            "L"
+          ],
+          "price": 7.8
+        },
+        {
+          "name": "Rindsgulasch mit Semmelknödel",
+          "allergens": [
+            "A",
+            "C",
+            "G"
+          ],
+          "price": 10.5
+        },
+        {
+          "name": "Tellerfleisch - Nudelsuppe mit Rindfleisch",
+          "allergens": [
+            "A",
+            "C",
+            "G",
+            "L"
+          ],
+          "price": 7.8
+        },
+        {
+          "name": "Frisches Gebäck aus dem Backofen - 8 Min",
+          "allergens": [
+            "A",
+            "G",
+            "N"
+          ],
+          "price": 1.6,
+          "vegetarian": true
+        }
+      ]
+    },
+    {
+      "name": "Mostviertler Gerichte",
+      "dishes": [
+        {
+          "name": "Hausgemachte Fleisch-, Grammel- und Speckknödel mit Kartofferl und Sauerkraut",
+          "allergens": [
+            "A",
+            "C",
+            "L"
+          ],
+          "price": 11.5
+        },
+        {
+          "name": "Gekochter Tafelspitz mit Gemüse und Röstinchen",
+          "allergens": [
+            "L"
+          ],
+          "price": 14.5
+        },
+        {
+          "name": "Geröstete Knödel mit Ei und Salat",
+          "allergens": [
+            "A",
+            "C",
+            "G"
+          ],
+          "price": 10.5,
+          "vegetarian": true
+        },
+        {
+          "name": "Bauern Cordon Bleu mit Käse, Geselchtem, Zwiebel, Kren, Bratkartofferl und Salat",
+          "allergens": [
+            "A",
+            "C",
+            "G"
+          ],
+          "price": 14.5
+        }
+      ]
+    },
+    {
+      "name": "Aus dem Gemüsegarten",
+      "dishes": [
+        {
+          "name": "Überbackene Gemüsepalatschinke mit Salat",
+          "allergens": [
+            "A",
+            "C",
+            "G",
+            "L"
+          ],
+          "price": 10.5,
+          "vegetarian": true
+        },
+        {
+          "name": "Spinatknödel in Gorgonzolasauce mit Salat",
+          "allergens": [
+            "A",
+            "C",
+            "G",
+            "L"
+          ],
+          "price": 10.5,
+          "vegetarian": true
+        },
+        {
+          "name": "Gemischter Salatteller",
+          "allergens": [],
+          "price": 4.5,
+          "vegetarian": true
+        }
+      ]
+    },
+    {
+      "name": "Hauptgerichte",
+      "dishes": [
+        {
+          "name": "Gebackenes Schnitzerl vom Schwein oder Pute mit Kartofferl und Salat",
+          "allergens": [
+            "A",
+            "C"
+          ],
+          "price": 12.9
+        },
+        {
+          "name": "Cordon-Bleu vom Schwein oder Pute mit Reis, Kartofferl und Salat",
+          "allergens": [
+            "A",
+            "C",
+            "G"
+          ],
+          "price": 13.9
+        },
+        {
+          "name": "Gegrilltes Putenfilet in Schnittlauchsauce mit Reis und Gemüse",
+          "allergens": [
+            "G",
+            "L"
+          ],
+          "price": 12.5
+        },
+        {
+          "name": "Gebratenes Zanderfilet mit Petersilkartofferl und Salat",
+          "allergens": [
+            "A"
+          ],
+          "price": 17.5
+        },
+        {
+          "name": "\"Stöffel Burger\" mit Speck, Zwiebel, Tomate, Käse und Steak Pommes",
+          "allergens": [
+            "A",
+            "C",
+            "G",
+            "N"
+          ],
+          "price": 10.5
+        },
+        {
+          "name": "Eierschwammerl à la creme mit Semmelknödel",
+          "allergens": [
+            "A"
+          ],
+          "price": 13.5,
+          "vegetarian": true
+        },
+        {
+          "name": "Kalbsbeuscherl mit Knödel",
+          "allergens": [],
+          "price": 13.5
+        }
+      ]
+    },
+    {
+      "name": "Für unsere kleinen Gäste",
+      "dishes": [
+        {
+          "name": "Kinderschnitzerl mit Pommes",
+          "allergens": [
+            "A",
+            "C"
+          ],
+          "price": 5.9
+        },
+        {
+          "name": "Grillwürstel mit Pommes",
+          "allergens": [],
+          "price": 5.9
+        },
+        {
+          "name": "Gegrillte Kinder Pute mit Reis",
+          "allergens": [],
+          "price": 5.9
+        },
+        {
+          "name": "Hühnernuggets mit Pommes",
+          "allergens": [
+            "A",
+            "C"
+          ],
+          "price": 5.9
+        }
+      ]
+    },
+    {
+      "name": "Zum Naschen",
+      "dishes": [
+        {
+          "name": "Lauwarmer Schokokuchen mit Beeren",
+          "allergens": [
+            "A",
+            "C",
+            "G",
+            "H"
+          ],
+          "price": 6.9
+        },
+        {
+          "name": "Palatschinken (2 Stück) mit Marillenmarmelade",
+          "allergens": [
+            "A",
+            "C",
+            "G"
+          ],
+          "price": 4.5
+        },
+        {
+          "name": "Gebackenes Eis mit Erdbeermark",
+          "allergens": [
+            "A",
+            "C",
+            "G",
+            "H"
+          ],
+          "price": 6.9
+        },
+        {
+          "name": "Eispalatschinke mit Vanilleeis und Schokosauce",
+          "allergens": [
+            "A",
+            "C",
+            "G",
+            "H"
+          ],
+          "price": 5.5
+        },
+        {
+          "name": "Wachauertorte",
+          "allergens": [
+            "A",
+            "C",
+            "H"
+          ],
+          "price": 3.5
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,8 @@ const UserSchema = new Schema<IUser>({
   role: { type: Number, required: true },
 });
 
+// I don't want to actually handle authentication but using a third party service for this project seems wrong
+
 // before a User is saved to the database, hash the password with a salt
 UserSchema.pre<IUser>("save", function (this: IUser, next) {
   if (!this.isModified("password")) return next();

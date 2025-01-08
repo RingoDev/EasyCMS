@@ -1,0 +1,167 @@
+
+
+
+
+.line {
+  display: flex;
+  flex-direction: column;
+}
+
+.lineDescription {
+  text-align: center;
+}
+
+.lineContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input,
+textarea {
+  resize: none;
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+  text-indent: 4px;
+  border: 1px solid #dddddd;
+}
+
+input[type="time"] {
+  width: unset;
+}
+
+input[type="checkbox"] {
+  height: unset;
+}
+
+textarea {
+  height: 12rem;
+  padding: 1rem 0.5rem;
+}
+
+input {
+  height: 3rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #888888;
+}
+
+.vertical {
+  display: none;
+}
+
+/* displayed if preview is enabled and input container is small*/
+.mobile-container {
+  height: 100%;
+  width: 100%;
+  max-height: 100vh;
+  background-color: white;
+  border-radius: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-container .line {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-container .lineDescription {
+  text-align: center;
+}
+
+.mobile-container .lineContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-container .vertical {
+  display: none;
+}
+
+.mobile-container .inner-container > div {
+  padding: 1rem;
+}
+
+.mobile-container .inner-container {
+  position: relative;
+  flex: 1 2 100%;
+}
+
+.mobile-container .inner-container > div > div::after {
+  content: "";
+  display: none;
+}
+
+.inner-container > div {
+  padding: 1rem;
+}
+
+/*displayed on desktop and larger*/
+@media (min-width: 600px) {
+  .vertical {
+    --margin: 1rem;
+    display: unset;
+    border-left: 6px solid #45777e;
+    position: absolute;
+    top: var(--margin);
+    bottom: var(--margin);
+    left: 24.5%;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  .lineDescription {
+    display: inline-block;
+    flex: 0 0 20%;
+    text-align: right;
+    justify-content: center;
+    margin-inline-start: 0;
+  }
+
+  .lineContent {
+    display: flex;
+    align-items: center;
+    flex: 0 1 64%;
+  }
+
+  .inner-container {
+    position: relative;
+    min-height: calc(100vh - 10rem);
+    flex: 1 2 100%;
+  }
+
+  .inner-container > div {
+    padding: 1rem;
+    max-height: calc(100vh - 10rem);
+  }
+
+  .inner-container > div > div {
+    max-width: 1540px;
+    margin: auto;
+  }
+
+  /*vertical line */
+  .inner-container > div > div::after {
+    content: "";
+    --margin: 1rem;
+    display: unset;
+    border-left: 6px solid #45777e;
+    position: absolute;
+    top: var(--margin);
+    bottom: var(--margin);
+    left: 24.5%;
+  }
+}

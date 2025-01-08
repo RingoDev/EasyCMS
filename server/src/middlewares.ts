@@ -1,7 +1,8 @@
 import { RequestHandler } from "express";
 import jwt from "jsonwebtoken";
-import { jwtSecret } from "./services/jwtSetup";
 import { Roles } from "./types/roles";
+
+const jwtSecret = process.env.JWT_SECRET!;
 
 export const getAuthorizationMiddleware = (disableAuthentication: boolean) => {
   if (!disableAuthentication) return authorizationMiddleware;

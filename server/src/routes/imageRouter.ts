@@ -4,7 +4,8 @@ import { v4 as uuidv4 } from "uuid";
 import fs from "fs";
 import sharp, { OutputInfo } from "sharp";
 import fileUpload from "express-fileupload";
-import baseURL from "../environment";
+
+const baseURL = process.env.PUBLIC_URL!;
 
 const router = express.Router();
 
