@@ -70,7 +70,7 @@ const Bills = () => {
       <div style={{ maxHeight: "100vh" }}>
         <div className={"navbar"}>
           {/*Back Button*/}
-          <RouterLink style={{ height: "100%" }} to={"/landing"}>
+          <RouterLink style={{ height: "100%" }} to={"/"}>
             <Button style={{ padding: "1rem", height: "100%" }}>
               <ArrowBackIcon />
             </Button>

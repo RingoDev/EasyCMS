@@ -10,8 +10,8 @@ export default function useResizeHandle<
   snapDistance: number = 10,
 ): [
   position: number,
-  handleRef: React.RefObject<Element>,
-  containerRef: React.RefObject<Element2>,
+  handleRef: React.RefObject<Element | null>,
+  containerRef: React.RefObject<Element2 | null>,
   resizing: boolean,
 ] {
   const [isDragging, setDragging] = useState<boolean>(false);
