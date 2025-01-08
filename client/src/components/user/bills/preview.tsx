@@ -2,7 +2,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import React, { useMemo, useState } from "react";
 import { UsePDFInstance } from "@react-pdf/renderer";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.mjs`;
 
 const Preview: React.FC<{
   instance: UsePDFInstance;
@@ -35,7 +35,7 @@ const PDFViewer: React.FC<{ file: any; width: number }> = (props) => {
       <>
         <Document
           className={"react-pdf"}
-          renderMode={"svg"}
+          // renderMode={"svg"}
           onLoadError={(e) => console.log(e)}
           file={props.file}
           onLoadSuccess={(x) => {

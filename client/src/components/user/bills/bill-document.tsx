@@ -114,8 +114,7 @@ const styles = StyleSheet.create({
   page: {
     position: "relative",
     fontSize: 12,
-    padding: "35 50 100 50",
-    paddingHorizontal: 50,
+    padding: "35 50 100 50"
   },
   section: {
     margin: 10,
@@ -193,12 +192,11 @@ const styles = StyleSheet.create({
     // backgroundColor:"#cccccc",
     position: "absolute",
     bottom: 25,
-    left: 50,
-    width: "100%",
+    width: "82%",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
-    color: "#777777",
+    color: "#777777"
   },
   footerItem: {
     fontSize: 10,
