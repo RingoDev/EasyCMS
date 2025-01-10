@@ -74,7 +74,7 @@ const ResizableColumns = (props: Props) => {
         </div>
       </div>
     );
-
+  // eslint-disable-next-line
   return <OverlaidViews children={props.children} />;
 };
 

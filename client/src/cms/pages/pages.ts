@@ -9,6 +9,7 @@ import Rooms from "./Rooms.tsx";
 import Partner from "./Partner.tsx";
 
 interface Page {
+  // eslint-disable-next-line
   element: (props: ComponentParams<any>) => JSX.Element;
   part: keyof Data;
   slug: string;
