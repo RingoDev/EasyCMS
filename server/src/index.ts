@@ -50,7 +50,6 @@ app
         if (incomingOrigin !== undefined) {
           const origins = [
             "http://localhost:3000",
-            "http://localhost:*",
             "https://easycms.netlify.app",
             "https://stefflwirt.web-stories.at",
           ];
