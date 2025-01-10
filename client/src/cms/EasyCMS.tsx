@@ -59,32 +59,35 @@ const EasyCMS: React.FC<Props> = ({ width, reloadPreview, dragging }) => {
   const [data, setData] = useState<Data>();
 
   useEffect(() => {
-    // axios.get<VesselType[]>(backendURL + "/api/vessel").then((result) => {
-    //   console.log(result);
-    //   setData({
-    //     contact: result.data.find((x) => x.slug === "/contact")
-    //       ?.data as ContactType,
-    //     cuisine: result.data.find((x) => x.slug === "/cuisine")
-    //       ?.data as CuisineType,
-    //     location: result.data.find((x) => x.slug === "/location")
-    //       ?.data as LocationType,
-    //     partner: result.data.find((x) => x.slug === "/partner")
-    //       ?.data as PartnerType,
-    //     rooms: result.data.find((x) => x.slug === "/rooms")?.data as RoomsType,
-    //     home: result.data.find((x) => x.slug === "/home")?.data as HomeType,
-    //   });
-    // });
+    axios
+      .get<VesselType[]>(import.meta.env.VITE_BACKEND_URL! + "/api/vessel")
+      .then((result) => {
+        console.log(result);
+        setData({
+          contact: result.data.find((x) => x.slug === "/contact")
+            ?.data as ContactType,
+          cuisine: result.data.find((x) => x.slug === "/cuisine")
+            ?.data as CuisineType,
+          location: result.data.find((x) => x.slug === "/location")
+            ?.data as LocationType,
+          partner: result.data.find((x) => x.slug === "/partner")
+            ?.data as PartnerType,
+          rooms: result.data.find((x) => x.slug === "/rooms")
+            ?.data as RoomsType,
+          home: result.data.find((x) => x.slug === "/home")?.data as HomeType,
+        });
+      });
 
     // mockup backend
 
-    setData({
-      home: homeData,
-      cuisine: cuisineData,
-      location: locationData,
-      rooms: roomsData,
-      partner: partnerData,
-      contact: contactData,
-    });
+    // setData({
+    //   home: homeData,
+    //   cuisine: cuisineData,
+    //   location: locationData,
+    //   rooms: roomsData,
+    //   partner: partnerData,
+    //   contact: contactData,
+    // });
   }, []);
 
   const containerRef = useRef(null);

@@ -1,11 +1,10 @@
 import React from "react";
 import { useState } from "react";
-import "./App.css";
+import "./AuthWrapper.css";
 import Login from "../Login";
-import CmsWrapper from "./CmsWrapper";
 
 const AuthWrapper = (props: React.PropsWithChildren) => {
-  const [loggedIn, setLoggedIn] = useState(true);
+  const [loggedIn, setLoggedIn] = useState(false);
 
   if (!loggedIn) {
     return <Login setLoggedIn={setLoggedIn}></Login>;

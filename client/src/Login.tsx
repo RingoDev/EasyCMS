@@ -12,6 +12,7 @@ function Login(props: Props) {
 
   const login: React.FormEventHandler<HTMLFormElement> = (e) => {
     e.preventDefault();
+    console.debug("Logging in")
     axios
       .post(import.meta.env.VITE_BACKEND_URL! + "/api/auth/login", {
         email: username,
@@ -26,25 +27,27 @@ function Login(props: Props) {
   };
 
   return (
-    <form className={"Login"} onSubmit={login}>
-      <p>Login</p>
+    <div className={"App"}>
+      <form className={"Login"} onSubmit={login}>
+        <p>Login</p>
 
-      <input
-        placeholder={"Benutzername"}
-        onChange={(e) => setUsername(e.target.value)}
-        value={username}
-      />
-      <br />
-      <input
-        type={"Password"}
-        placeholder={"Passwort"}
-        onChange={(e) => setPassword(e.target.value)}
-        value={password}
-      />
-      <br />
+        <input
+          placeholder={"Benutzername"}
+          onChange={(e) => setUsername(e.target.value)}
+          value={username}
+        />
+        <br />
+        <input
+          type={"Password"}
+          placeholder={"Passwort"}
+          onChange={(e) => setPassword(e.target.value)}
+          value={password}
+        />
+        <br />
 
-      <button type={"submit"}>Einloggen</button>
-    </form>
+        <input className={"submit"} type={"submit"} value={"Einloggen"}/>
+      </form>
+    </div>
   );
 }
 

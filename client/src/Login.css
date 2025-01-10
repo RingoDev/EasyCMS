@@ -27,7 +27,7 @@
   margin-top: 0.3rem;
 }
 
-.Login button {
+.Login .submit {
   /*height: 13%;*/
   /*width: 30%;*/
   padding: 1rem 2rem;
