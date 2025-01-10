@@ -8,7 +8,7 @@ const AuthWrapper = (props: { children: (v: () => void) => ReactNode }) => {
   const [loggedIn, setLoggedIn] = useState(false);
   const handleLogout = () => {
     axios
-      .get(import.meta.env.BACKEND_URL! + "/api/auth/logout")
+      .get(import.meta.env.VITE_BACKEND_URL! + "/api/auth/logout")
       .then(() => setLoggedIn(false));
   };
   if (!loggedIn) {
