@@ -1,8 +1,8 @@
 import EasyCMS from "./EasyCMS";
-import ResizableColumns from "./components/resizableColumns";
 import Preview from "./components/Preview/preview";
 import React, { useRef, useState } from "react";
 import useThirdPartyCookies from "../hooks/useThirdPartyCookies.ts";
+import ResizableColumns from "../shared/resizableColumns.tsx";
 
 const clientURL = import.meta.env.VITE_STEFFLWIRT_URL!;
 

@@ -13,12 +13,12 @@ interface Props {
 }
 
 const ResizableColumns = (props: Props) => {
-  const handleBarWidth = 20;
+  const handleBarWidth = 32;
 
   const [position, handleRef, containerRef, dragging] = useResizeHandle<
     HTMLDivElement,
     HTMLDivElement
-  >(window.innerWidth * 0.7, 50, 5);
+  >(window.innerWidth * 0.5, 5, 5);
 
   const [leftBorder, setLeftBorder] = useState(0);
   const [rightBorder, setRightBorder] = useState(window.innerWidth);
@@ -34,15 +34,27 @@ const ResizableColumns = (props: Props) => {
   }, [width, height, containerRef]);
 
   const styles: React.CSSProperties = {
-    overflowY: "scroll",
+    overflow: "hidden",
     width: "100%",
+    // set columns pointer events to none so our dragging is not disturbed
+    pointerEvents: dragging ? "none" : "unset",
+    borderRadius: "0.75rem",
   };
 
   const handleStyles: React.CSSProperties = {
-    backgroundColor: "#c9c9c9",
     height: "100%",
     cursor: "col-resize",
-    flex: "0 0 20px",
+    flex: "0 0 32px",
+  };
+
+  const innerHandleStyles: React.CSSProperties = {
+    height: "100%",
+    cursor: "col-resize",
+    borderRadius: "10px",
+    width: "16px",
+    backgroundColor: "#c9c9c9",
+    margin: "0 auto",
+    pointerEvents: "none",
   };
 
   const leftWidth = Math.max(position - leftBorder - handleBarWidth / 2, 0);
@@ -55,7 +67,7 @@ const ResizableColumns = (props: Props) => {
           {props.children[0]({ width: leftWidth, dragging })}
         </div>
         <div ref={handleRef} style={handleStyles}>
-          {/*<div style={innerHandleStyles}/>*/}
+          <div style={innerHandleStyles} />
         </div>
         <div style={{ ...styles, width: rightWidth }}>
           {props.children[1]({ width: rightWidth, dragging })}
