@@ -41,7 +41,7 @@ UserSchema.pre<IUser>("save", function (this: IUser, next) {
     .catch((err) => next(err));
 });
 
-UserSchema.methods.authenticate = function (pw): Promise<boolean> {
+UserSchema.methods.authenticate = function (pw: string): Promise<boolean> {
   return bcrypt.compare(pw, this.password);
 };
 
