@@ -1,7 +1,7 @@
-import {JSX, useEffect, useRef} from "react";
+import { JSX, useEffect, useRef } from "react";
 import { ComponentType } from "../EasyCMS";
 import axios from "axios";
-import "./pages.css"
+import "./pages.css";
 
 export interface ComponentParams<T> {
   slug: string;
@@ -31,7 +31,10 @@ function Wrapper<T extends ComponentType>({
   useEffect(() => {
     const saveData = (dataToSave: ComponentType) => {
       axios
-        .put(import.meta.env.BACKEND_URL + "/api/vessel" + slug + "?preview=1", dataToSave)
+        .put(
+          import.meta.env.BACKEND_URL + "/api/vessel" + slug + "?preview=1",
+          dataToSave,
+        )
         .then((_r) => {
           console.log("Saving Preview data", dataToSave);
           setPreview();

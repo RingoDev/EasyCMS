@@ -20,7 +20,7 @@ function Login(props: Props) {
       .then((r) => {
         console.log("Logged user " + r.data.user.email + " in");
         props.setLoggedIn(true);
-        setPassword("")
+        setPassword("");
       })
       .catch((e) => console.log(e));
   };

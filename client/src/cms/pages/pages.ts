@@ -4,7 +4,7 @@ import Cuisine from "./Cuisine.tsx";
 import { ComponentParams } from "./Wrapper.tsx";
 import Home from "./Home.tsx";
 import { JSX } from "react";
-import {ComponentType, Data} from "../EasyCMS.tsx";
+import { ComponentType, Data } from "../EasyCMS.tsx";
 import Rooms from "./Rooms.tsx";
 import Partner from "./Partner.tsx";
 

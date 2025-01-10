@@ -8,7 +8,10 @@ const NavPanel = () => {
   return (
     <>
       <div className={"logout"}>
-        <button onClick={() => console.error("TODO implement logout")} className={"logoutButton"}>
+        <button
+          onClick={() => console.error("TODO implement logout")}
+          className={"logoutButton"}
+        >
           <img alt="Logout" src={"/Logout-Symbol.svg"} />
         </button>
       </div>

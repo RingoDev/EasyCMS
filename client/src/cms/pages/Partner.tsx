@@ -21,7 +21,7 @@ function Partner({ data, setData }: ComponentParams<PartnerType>) {
           />
         </Line>
         {data.categories.map((category, categoryIndex) => {
-          const setCategory = (newCategory:any) => {
+          const setCategory = (newCategory: any) => {
             const newCategories = data.categories.slice();
             newCategories[categoryIndex] = newCategory;
             setData({ ...data, categories: newCategories });
@@ -60,7 +60,7 @@ function Partner({ data, setData }: ComponentParams<PartnerType>) {
                 </div>
               </Line>
               {category.partners.map((partner, partnerIndex) => {
-                const setPartner = (newPartner:any) => {
+                const setPartner = (newPartner: any) => {
                   const newPartners = category.partners.slice();
                   newPartners[partnerIndex] = newPartner;
                   setCategory({ ...category, partners: newPartners });

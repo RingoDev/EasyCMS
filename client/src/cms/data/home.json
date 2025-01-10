@@ -1,5 +1,5 @@
 {
-  "showInfo": true,
+  "showInfo": false,
   "currentMenu": {
     "name": "Kitchen to go",
     "dishes": [
@@ -70,60 +70,66 @@
       }
     ]
   },
-  "infoText": "Hallo",
-  "infoTitle": "Wir suchen Verstärkung",
+  "infoText": "Eierschwammerl a la creme mit Semmelknödel",
   "titleImage": {
-    "src": "http://localhost:3001/img/titelbild.jpg",
-    "alt": "Gasthof Stöffelbauer",
+    "src": "https://cms.web-stories.at/images/home/d5fa4d02-1313-4b2a-8797-dbe2a4f49f6f.jpeg",
+    "alt": "",
     "height": 3000,
-    "width": 4512
+    "width": 4512,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAABQACAwQGBwH/xAApEAABBAICAAQGAwAAAAAAAAABAAIDBAURITESIkGhBhUyUZGxExTh/8QAGgEAAgMBAQAAAAAAAAAAAAAAAQIDBAUABv/EAB4RAAMAAgIDAQAAAAAAAAAAAAABAgMEESESEzFR/9oADAMBAAIRAxEAPwDr7Wj0T/CspT+IWPI8yMR5Vj2dhbXvTMRQ2EXaCjdI0IRZyYG9FDpcpz2o62pRYjVqjRSWGgdofavNaDygU2SJH1IbZuOfvkqGt1L4Txo/obkyYDu1LXyTXHkrIySuPqVF/bdGeyhj3u+w5dJJdHQ452SDtPLQ7pYenmfC4AuWio5VjwNkLSx7M0Z2TA5OS0Mw9rh5itJUzp8A25cwrWiNcq+y+W605eQrPaZozKR0v5oZenJzZXu9VjMXdc9zdla6k8OaEFlp/S5F9dE3mPaQYT2lJK1iYy00nSZ0xvNkwi2FRuw6B0icUjSFXuEFpSK2gOmzLTyPifwVaqZR8fqVDeaC4qiRo8FWJ2akhqEzE16z9DlWm13bGyjlTGO8A2CnTY9zTwD+FI8PJHwR4xv8ZHK1dGwQ0AH0Waq15A/XP4WqxNF7wNgpfQSS+CtetuaD2hQyLmv5JWvs4R0jOkEs4B4J01B4uh+SGHMeFvLl6/LtcO1SnxErTwCoPlkwHRUXpYHQ61fad8qk6837r2xjZtHylDZqMwPRTrXYrs7BBiK7RwPZKXD13d/pJJXgDIcJWDv8R/HY2GMDX6SSXHILCpGW9KtNQhIOwkklY6KE2Lrk/T7Ku7E1/t7JJLkBlWfD1yOvZDrGErc8eySSdCM//9k="
   },
   "greetingHeading": "Griaß eich",
   "greeting": "Unser Gasthaus ist ein echter Familienbetrieb. 1949 gründete Michael Stöffelbauer Sen. den Betrieb, der 1984 von seinem Sohn Michael Stöffelbauer Jun. übernommen wurde. Mit der von Martina Stöffelbauer exzellent geführten gutbürgerlichen Küche entwickelte sich der Gasthof zu einem beliebten Fixpunkt in der regionalen kulinarischen Landschaft.",
   "familyPicture": {
-    "src": "http://localhost:3001/img/Familie.jpg",
-    "alt": "Familie Stöffelbauer",
-    "height": 2460,
-    "width": 3700
+    "src": "https://cms.web-stories.at/images/home/923bfde7-f63f-48d4-8721-afe8b27ba0dd.jpeg",
+    "alt": "",
+    "height": 2836,
+    "width": 4264,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABQYABAECBwP/xAAoEAABBAICAgECBwAAAAAAAAABAAIDBAUREiEiMRNBoQYVI1FSYXH/xAAZAQEBAQEBAQAAAAAAAAAAAAAEAwUCAQb/xAAeEQACAwEBAAMBAAAAAAAAAAAAAQIDEQQhEiIyE//aAAwDAQACEQMRAD8A6GfEKvLbDB7Wb0vAFLOUtlocdr5pUZLGP+eouZDJN0RtLNzIbce0EyuY4PILkvzZkEnyWxz0Rig05tjiL39qzVyHFw2UgjLj+S9Y8v30fukOqLRPWdcx2UaNd/dHq95sgHa41Qy7i8DknPD33O47KyunnS9QmubH5rw4KFm0OpWeQHaM1W8ws+NWvCzliAmTaeRSrmmkRuT1kYRsnST89H4OCbbLbCdcfDkX4kc8SO4pVc6Ukp+zNQSSO6QmPEh2+lo1S+p7Khr1i3CJT7V+Br0Y/LBGPSw2BrSBpWWsi0kb4xrhINp3w7yC1K9OIBw0E24aPkWrmzmczxWJDbjnuOk144+I2lmjGGtBR+jKBoIEud1z9KOSaPW9o7Sjno/ByOZC81u+0p5rIsLXDYQ5pynqEU4s0TMi39U/6t6MLXDtUsnab8hO/qtaOQa36rX5Y+ejOqyH8/Ahfrta3r9kBe3UiKXr7XM9oOJw+RPxR9MHXJ4EqnsJuwTmgjZSrTAI2iUFwQfVdV3JvDmVbS06HFK0RjRV2lN5DtIVTMhxA5Jkxt4OAO0TveeopS0wVlrsnEpMyt2Uk9qKIdcUX1irkbTySqde1IHe1FFo0JE7JPCzNakLfa0qTOMgUUV+hfUPS/sNNGQ/Gq16Zw3oqKLP5/2Lu/JWo2pPlHadMVak4N7UUTumKa9A1t6f/9k="
   },
   "openingHoursHeading": "Unsere Öffnungszeiten",
   "openingHoursText": "Mittwoch 17:00 - 23:00 Uhr\nDo - Sa 10:00 - 14:00 Uhr\n17:00 - 23:00 Uhr\nSonn- und Feiertag 10:00 - 14:00 Uhr\n\nKüche geöffnet: 11:30 - 14:00 Uhr\n18:00 - 21:00 Uhr",
   "gallery": [
     {
-      "src": "/img/dishes/Burger.jpg",
-      "alt": "Stefflburger",
+      "src": "https://cms.web-stories.at/images/home/cda4652e-edf8-43cc-a546-6319df260e59.jpeg",
+      "alt": "",
+      "width": 4250,
       "height": 2826,
-      "width": 4250
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAHAAAAgMBAQEBAAAAAAAAAAAABQYAAwQHAgEI/8QAJBAAAgICAgEEAwEAAAAAAAAAAQIAAwQRBSESEyIxQQYUUaH/xAAZAQACAwEAAAAAAAAAAAAAAAADBAECBQD/xAAdEQACAgIDAQAAAAAAAAAAAAAAAQIDBBESITET/9oADAMBAAIRAxEAPwDhvG2auWdS/E7/AGrOTYFdnqKdTpX4p5jw3LwemdLs6UreVQlBPc94oJpG/wCSqxgphnZFFFFni7tYNup2TCDuCJltcDcxcvLcJdGjRj8kCctPFTFPmUZ9iN2YwIMAZlYJO5ONf9PSbq3BCxh4jLZvUP13+hT31ItSqu4J5fI8EIBmonpCD7Yap/GDW49n+Ro4jjP1wOviN+ZhVVseoOuKoDqKZNyrRapcmV2ZQpr1uA8rlB6hG595S1u9RXzLXDmZ8clzZoqlJDLXyAI+ZVfmjvuLKZLj7lV+WwB7MrOKs9JjYoBy7MB+4Pvu8vgwKct2bW5rxvOyM49HB7A3Xcj3faVQ9xb5W5m3G/8AQaxPiYsjgi+/bNDvQmmju3MV+86gNsYvuOXIYnmx6mBcILvYit9P1Ig+LEfksAhSdRSz8RvM6E6nymOviYpZ2KvmYksXi+htXvQlHFf+Si3CZhGm2hB9TK6KD8QsadPYBuTYDxeKLMNiMGDxioBsT7S6JNX7ihepoV6SKSTNC0pWO9Su01D+TDflsfiYbLbGP3C7KaP0dZUrfMH5lYVTqSSBfgReiny9hG4p5trbMkkWk+xmKBGRYe5htsMkkjZOkU+q25fVtiNmSSEg+yk0baqFbW5oXFSSSOR8E5H/2Q=="
     },
     {
-      "src": "/img/dishes/Gemusepalatschinken.JPG",
-      "alt": "Gemüsepalatschinken",
-      "height": 3000,
-      "width": 4512
-    },
-    {
-      "src": "/img/dishes/Ripperl.JPG",
-      "alt": "Ripperl",
-      "height": 2849,
-      "width": 4285
-    },
-    {
-      "src": "/img/dishes/Schnitzel.JPG",
-      "alt": "Schnitzel",
+      "src": "https://cms.web-stories.at/images/home/dd75111e-f6ae-4ee3-83bf-307ac7d5eb03.jpeg",
+      "alt": "",
+      "width": 4312,
       "height": 2792,
-      "width": 4312
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA0AFADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABQYAAwQHAgH/xAAiEAACAQQCAwEBAQAAAAAAAAABAgADBAUhETESIkEyI1H/xAAaAQACAwEBAAAAAAAAAAAAAAACBAEDBQAG/8QAHBEAAgMBAQEBAAAAAAAAAAAAAAECAxEEIRIU/9oADAMBAAIRAxEAPwB3XYg/IU+QZro1Aw7ni5UsNSyTBwWKtL+3UMY4eIEzVqPFTkiehcrSHyLW3KAUI6w1VrcJMB5d5gfIKdcy62ukP2Z93bkfB1VILWxKQjRvCvG4Ca6UDRlaXg8u4vxdcrJ+gWV4h2schww3HDEXfmBucqs7r2G444XIBQvLTe+tQr84ctx995Ee0P0XDpuI2MDhhzzGu0qEU9wZSxEpFWVqCmCYm5LJlGIBjHmizqeIiZOi5c6M8/0WTcsNCipMvTJlm/U3UMoVHcWqaFe5K1UqNRSSb8NKPOktGp8zr9T5Sy/sPaJLXLlvs00HdiO4VMXVLUVypTOkY7KeXG4yWWTKgcGc3w4qEjuOePt3dR3N6mbkjLugoMut8YEP5m5bcqvHEIeSfJ5JBjWaK6B7uz8wdReyGMG9R3YAgwNlCqqepRZzRkXVXOLEO4sQpOpiqY/z+Q1fXChz1PFvVRiOot+NaPfseAelhSzD1hiywBPHrD+NpU3I0I246wRgNCHHkRVLrYt4nBlSvrHPG4wKo5E229mqAcCbUIpiOQrUUJzsc2JYdv8AZYrGSScgWe2PqYu5xiEbckkk5HPcnVcVDuV2dd/Ibkkglg44Gq5ZeTOk4XaLzJJJIGBVHjMtxrqSScQf/9k="
     },
     {
-      "src": "/img/dishes/Spargelcordon.JPG",
-      "alt": "Spargelcordon",
+      "src": "https://cms.web-stories.at/images/home/d4882b17-1834-41a4-be8d-12e3f1901fae.jpeg",
+      "alt": "",
+      "width": 4285,
+      "height": 2849,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABAYAAwUCB//EACQQAAEEAgICAgMBAAAAAAAAAAEAAgMEBREhMRJBE1EGFDJC/8QAGgEAAwEBAQEAAAAAAAAAAAAAAgQFAwEABv/EACARAAICAwADAAMAAAAAAAAAAAABAgMEESEFEhMUMUH/2gAMAwEAAhEDEQA/ANiKMDSvEQcOly07PCJjB0sbsz5lO6iLRwyAA9ImPxa1DWJvjCzZckG7G0k/JGFeHt7NOxZDD2qG3AT2sC1kPLooIZAg9oY+QbY5+FHRtZaVr4ykq/A2SVaNzIFzTyseSzt2ymHk/wBMfgjTxFRocOE4UYgGBJuMtjzHKcsdIHsHKrYeZvgrbhRkW05Q8jlbEbAWJVryGJw2t6jbDgBtfNZabKt0O7QNlWEA6Shfc9rj2n61GJWnSV8tTDdnSkJtSCqmtaFd8zvZVD5j9q27qNxWRZshoPKerjvocpF00/eygZrI+0DYubJ0UIZi49pqMRaUhgx9rUg5Tnisk1rBsrzWtIWna04LzmBNVWqszabPQ5387G1K1t0bh2g4Zi8DZVpA1tHdV7rZVlDXGMtS8Ht5QOYeHMOllMtfF7XUlsSt0Sol1TjIVdTXUKWYL/J2kuWGyO+0+WaQnd0uI8B58+K0hP1RjOR55+pI49Fdiq8dhehu/H/EfyhZsLr/ACheSzySEkRub6XbSR6TNNiD6agpMW4el36thbRuV5HBoV7rD+FFFcb4WUk/2DSzuKrZO8OUUU+9HJxWjZxshe9u03UIWOYNhRRJJdImVx8CZq0fj0sm1AwHpRRBakjCtsCdWYfSHmpx66UURVJHZtn/2Q=="
+    },
+    {
+      "src": "https://cms.web-stories.at/images/home/99c3f258-2476-4235-95e5-68b01d66bffd.jpeg",
+      "alt": "",
+      "width": 4512,
       "height": 3000,
-      "width": 4512
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAHAAAAgMBAAMAAAAAAAAAAAAAAAQFBgcDAQII/8QAJRAAAgIBAwMFAQEAAAAAAAAAAQIAAwUEESEGEjETIjJBoUJR/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAAgEQADAAICAQUAAAAAAAAAAAAAAQIDEQQhEhMUIjFR/9oADAMBAAIRAxEAPwCz9s9gk9hsPJnnuX/ZNjoW1K8SMtr3aS13PicPS35MhWaZNCwU1sjRpPUHInSvCJYfiI3Y60jkzxRlUVwNxJe7lMjUNPR0p6ZR/wCJLaHppKyD2RzFZCuzbxLJp7kZRsBNMZpoHpVrZH6TGCoDYR1dP2/Uaa5VH1F31tYPJEoibWjKLMqoPyhVkgx+Uo2o1NqHneGlyZVhuYNb6A78ezSKLw/3GW+PEp+PyqkDmTVWQDr5mfJxd9mqOd8dHLJlzvtImqq0278yad1s8mCJWvPE5uXjVLNPHqLe6HcO7V9u5ls0WuVVG5lEt19dA8iRmr6oWkEB/wBlOPjvZozZcczpGjZbOV0ofcJS9d1aEsID/sz/ADvVpsDAWfspOsztj2E9860ro49V5M2TqLAtSrFVmd5FbNNYeDPpnO4hb622WZL1X00QXKpKpEn2Z5pMqyNsSZYNDmQdvdKrlMdZprDwREadS9TbExiNR+Gn15UFflOOqzHYp90penyZ7eTOOuyO6nYxalMEXcslcrnzsQGlRyGZssY7MYhr9UzseZHndjzJqUjSm6+zrfqrLfJMUfvJ8mOVUlo/RjTZ9RtjaPu61Ay8yt53H02Vt3CEISZj3WGNpQvsPyZdkqVSw7QhKIBFtYyeDF7b3I2MIQMGhNz3HmCKN4QiFUSugqVmG8tmL0tZA3EIRAn/2Q=="
+    },
+    {
+      "src": "https://cms.web-stories.at/images/home/78f74586-2135-4370-88af-cf5df3fe7dae.jpeg",
+      "alt": "",
+      "width": 4512,
+      "height": 3000,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABAYAAwUHAQL/xAAnEAABBAIBBAICAwEAAAAAAAABAAIDBAURIRIiMUEGMhVRExRCof/EABkBAAIDAQAAAAAAAAAAAAAAAAMEAAECBf/EABwRAAMBAQEBAQEAAAAAAAAAAAABAgMRBBIhMf/aAAwDAQACEQMRAD8A5lDRcT4WlXxT3a7Smaji2ucO1NFDDN6RtqGrG7zU/wBEKviXtI7Vs06bmAcJvkxjGDwELJXYw+kPT0fBvOYZiSVy5utLIu40v32pxbE0/pVzQs16QF6UxxKWuHNreHdzpqyrGIeN9q6p/UjkOuF67DRSD6hEnboDTKTjUuNkafqVWKkrfRXXp/jrHb01BP8AjQ39UdUI3KRv4iLqI4TRFqONZWLrdAGwj7ryyI6Qa6pDa391wDyN5rAeUuW8q0E8ofN2nAu5StYsOJPJXA3u6rg3j5+ro0R5Yc9y+JssD/pKP87h+1TJPIT7VZ/SGVikOMOUHV9lrV8q0gcrnUUr9+1o17Lhrlae9QS800dFgvMf50jonxv9BIdK07Y5TFj7JdrlOeb1u3xnK2njDq2ViGu4K6xfiljPIXG2Z+Rp+xRkPyV3gvXWf6jNZuWOWTiZKTorDkoAnhBszwf5cr4so158pLTyqn0YjepRYzF9RVv4Ukb0r4MgwckhFfloQ3WwrnypEr00zEsY0x+FRFXcHLRuZGJ5OiEGy3H1b2Evp5PphF6H8/poU654TFjYgNbKVm5FjB5CJizrWeHBbw8nw+iejdHMHt7fKGJIdwVFE7LH9EulzZXgDRKMqWJOryVFFoC0uGk6xI2PYKz5b8wd9lFFYNIoffmPv/qtr3ZT7UUUI0WWLkobwUIy7KXeVFFZElw//9k="
     }
   ],
   "openingHours": {
     "monday": [],
     "tuesday": [],
-    "wednesday": [
+    "wednesda": [
       {
         "start": "17:00",
         "end": "23:00"
@@ -175,5 +181,6 @@
         "end": "21:00"
       }
     ]
-  }
+  },
+  "infoTitle": "Saisonale Schmankerl"
 }

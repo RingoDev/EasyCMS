@@ -2,38 +2,43 @@
   "headingRooms": "Unsere Zimmer",
   "contentRooms": "Wir bieten Übernachtungsmöglichkeiten an unserem Gasthof an. Bei unseren Zimmern handelt es sich um sehr einfache Einzel-, Doppel- oder Dreibettzimmer. Außerdem haben wir auch eine Ferienwohnung für 4 Personen anzubieten. Im Preis inkludiert ist ein einfaches Frühstück in unserem Gasthof.",
   "headingPrice": "Preise",
-  "prices": "Einzelzimmer 41 ,- p.P\n\nDoppelzimmer 36 ,- p.P\n\nDreibettzimmer 36 ,- p.P\n\nFerienwohnung 41 ,- p.P",
+  "prices": "Einzelzimmer 50,- p.P\n\nDoppelzimmer 45,- p.P\n\nDreibettzimmer 45,- p.P\n\nFerienwohnung 50,- p.P",
   "infoText": "Preise inkl. Frühstück",
   "images": [
     {
-      "src": "/img/rooms/Zimmer1.jpg",
-      "width": 4512,
-      "height": 3000
+      "src": "https://cms.web-stories.at/images/rooms/20ad366c-9c55-4adb-96f5-cad98c63ab39.jpeg",
+      "alt": "",
+      "width": 4164,
+      "height": 2768,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAABgACAwQFAQf/xAAmEAABAwMDBQEAAwAAAAAAAAABAAIDBAURBhIhEyIxQVEyFEKh/8QAGQEBAAMBAQAAAAAAAAAAAAAAAQACBAUD/8QAHBEBAQABBQEAAAAAAAAAAAAAAAERAgMEEiEx/9oADAMBAAIRAxEAPwA2iarLR2lV3ODBlU57myIEFyEOuE5jBwsyG4OMmFWr7k2UHBWdBUDqA5XnqyvBvSydRoUz2rLtlY0tA4WrvD/CYKjwu4TikkGEKN7VOVG5KMq5VjGRHDvSArvdT1CGuUVbejJGe70hmWqEk3cfaUElHPJMCckq2Oo0hc04IXxjdhEbqWB2MYThEFqmkBGcompqnAGVkwxxRDghNlrGsdwUdUyI2zByfvH1YFNXA+1b/lj6pNNGWoXD6mFyzHVgB8rrKtrvaeqZeI7nuZ4Kz597H5wUcR2YkflRzaec/wDqrdRkN227SU/HK3IdRSEDkpp0zJnhpVmn0xLn8lTrVsmv1BLjyqj7+4u7nLWfpeTpntKF71ZZqfJAKcUCCgvu4gbkQ01xD2Z3LyOldNDMAc+UX2yrcWAEq8sk9Vum34Kqm4bfBTKa5Eu8rFkc6RTUsTs5WXd5GmeRo29i36PIKWM+lbbRxEeEklqjOkZQw/Fep6GHjtCSSYFo0MJYe1C+orTTvjcSP8SSV8CPLrxbYYpjt+/EygYA4BJJYuRcTxr2ZmiCmhaQMrSgiaMJJLkW5ro48f/Z"
     },
     {
-      "src": "/img/rooms/Zimmer2.jpg",
+      "src": "https://cms.web-stories.at/images/rooms/38c898aa-245e-4103-b565-30c22ead38f6.jpeg",
+      "alt": "",
       "width": 4512,
-      "height": 3000
+      "height": 3000,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABAUAAwcBAgb/xAApEAACAQMEAAUEAwAAAAAAAAAAAQIDBBEFEiExIjJBQlETFBVSBpGh/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQIDBAD/xAAdEQEBAAICAwEAAAAAAAAAAAABAAISAxEEEyEx/9oADAMBAAIRAxEAPwDtCnsYwp9AtVqDJC4ivUz4fCpm9seiMEV3H5O/dRfqN3LeqqALhBNSvFgdaomKswXKK8Q2tehRSmt3Y1tZrCANyRuCudLcWQeS+EcorjI3zt1NciuvX25wCXGornkD+7VR9kdq2kY7yW7jJZTuKj+SWVqqzQ+t9KjhcCnbHUJRGrUaOtzkP/xiXSLKemZfQdMojiSCjTm36je0hJJdjWjpePaFwslBdFMeJp5ZkBShIKjlII+lGJTVlFIsY9UV7sOuryTzhni0u5b1liedxn1PMLja+zDq2/YtJ0e/jFLc0fRw1ilGPmRkNHUnBLEgj8zP9v8AQbZY3amVrcNXpyfmQytdTpYXKMbt9YllZk/7GtLW3GPnCeQj9g8A/lrEtYpRXaBK2vU17kZXc/yCXPjF1XXpt+co+VKeLavW1+HPiQtuNej+yMxnrU37mUy1WcvcxPes3oCRuTPDm8kIXo3N8vk59SXyQgEm7r6NaWew2NaW0hDJylq4qirUkweTZCEa94cnnsuo84yQhXClnf/Z"
     },
     {
-      "src": "/img/rooms/Zimmer5.jpg",
+      "src": "https://cms.web-stories.at/images/rooms/5d3abdc9-76da-409b-9248-7b1ca55ab393.jpeg",
+      "alt": "",
       "width": 4512,
-      "height": 3000
+      "height": 3000,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAABgADBAUHAgj/xAAoEAABBAEEAQQBBQAAAAAAAAABAAIDBBEFEiExBhNBUWEyFCIjQlL/xAAaAQADAQEBAQAAAAAAAAAAAAACAwQBAAUG/8QAHhEAAgICAwEBAAAAAAAAAAAAAAECAxESBBMxIRT/2gAMAwEAAhEDEQA/AMs0oFrhwjjSZdrQhjSK28jhFlWsWMHCmVb9KrJouobu0KZDfBPaHnA57UmqDntZJMTkKK8+/ClSn+NUdeYMxkqXLbHpHlJa+BIotdeASht9hoJ5UzyS5jdyg83SXnlQ2NoqhDKJeqy72lDMke6Uq1szbm9qJA3dIug20DJYYTePStO3OEUSWGsi9lmWh6htc3lF8E5sRAAr6euKccHnTbzkfsamGvTtXVMqC7SpZXZAKmUtFlB5aUD47N7ETv17jjBTxuPMfaer6Q7AyCpR0shnSRPjMONiAbyCR7w5DMUUjpCtLu6KZP6qPB47h2dqQ+FsPXIwAklaQt913TrPEnIK0F+gDb+KZGihjvxQfi1QLu2MNpXTG9vK0XxS62VzA4rJWEhwRV45edFI3lXVWYYM68o9C6RFBJECdvSt2RV2/wCVnnj2qOfG0ZRRFZeWg5V/asEvX9L8eiBxhcu9LCpTZcm3WnfKRKwNQLhzYvpcZib7BUzrbvkpp1x3yl9gWhdSSR46ChTPj+lVS3iOyoM2o/axzO1POzR0rLS3ETDHykkpI+lj8NW8R/c1mVoleFvpBJJXLwjl6dOiamnwtSSSmahh8LVFmiABSSQhFPfJYDhDluy8OKSSE0//2Q=="
     },
     {
-      "src": "/img/rooms/Zimmer6.jpg",
+      "src": "https://cms.web-stories.at/images/rooms/6fb483bc-2bbb-4749-a7db-cb429c687e75.jpeg",
+      "alt": "",
       "width": 4512,
-      "height": 3000
+      "height": 3000,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAGwAAAwEBAQEBAAAAAAAAAAAABAUGAAMCBwj/xAAmEAABBAICAgICAwEAAAAAAAABAAIDBAUREiExQQahEyIjMrFR/8QAGQEAAwEBAQAAAAAAAAAAAAAAAgMEBQEA/8QAGxEAAwEBAQEBAAAAAAAAAAAAAAECAxESEyH/2gAMAwEAAhEDEQA/AJ5jeK6c2gLnYdwCT2L3F3lIq/I+YdDGzCyUFLzjWl2wF5iyG/JRsNtr9Jf0TGeKk606vDXSaxs0xD1nB2ke0DgmIWxBlyQCpifZeVYZOJrgUhkrND02RbEskJd6RuNgIcOkcIGf8RFcNjPpEAMMidNKlLzzzPaqck1xadKTvRycj0od0y7DhwbKR7R1OweQ7SstePSKptfyHSljvSu+cLHGybaEydNpqR43mGhOY4XSBaEJ8M63+gFyQnaS2p+B7VbLjXOjJ0VKZulIxx0CnqRLYLHa5O0CjoWueOkrxtR7phse1a47HD8Y2ESQLAZLDJB5CEkrxyH0oyPOEeXIyHPD25C5VBzbkpmYxjz4CY08GwkdKcp59mxtwVFj/kMI1twXJxkKtq4P6WEA1oJ5Uw+tdJTQ+QVzr9gn1TNwHWnBUzEk1Wwk4z+PXFTmXwBlcdN+lXwZWFw/sEUyetL5LU1QgHbPm1P446OQHh9J5HjzEzWlY8axHXFCWGRHxpHOKAep+NS4rfkcPBWWWeVntlmRvhxRkGRnaenLLLx0a1MxZaRp32n1LN2uv2+1lkaYLQ8qZ20AO/tNa/yC2Nd/ayyamxbSGtTP2nEb/wBTynkZZQOX+rLKrJk9o//Z"
     },
     {
-      "src": "/img/rooms/Zimmer7.jpg",
+      "src": "https://cms.web-stories.at/images/rooms/063f5cd8-1a5d-42b2-b863-fa1a166a06ac.jpeg",
+      "alt": "",
       "width": 4512,
-      "height": 3000
-    },
-    {
-      "src": "/img/rooms/Zimmer8.jpg",
-      "width": 4512,
-      "height": 3000
+      "height": 3000,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA1AFADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABAYAAwUCAQf/xAAjEAACAgICAwACAwAAAAAAAAAAAQIRAwQFEhMhMQYiFEFx/8QAGQEAAgMBAAAAAAAAAAAAAAAAAAQBAwUC/8QAHhEAAgMAAgMBAAAAAAAAAAAAAAECAxEEIRIiMUH/2gAMAwEAAhEDEQA/APlOkujVG5q5XSVi/r5FaNXVyfPYs2kMeLZq+PyIsw6zjK6LNGpUa+LXUl8JXZy+jnUTpI62sHePwMw4KL3jTRJAt/w2p3QVDF1gassCKcmNJABg72HtZkPT/f4M2xBMEeJX8ABAwWjQ1ptSQJjpBevXdCd0sY7VHUM3E26GjVh+qFvhq9DTrtdENUrULXPGXQgd9Ty6RVLLRc1hSjqaBcyL3O0C58iOcADzoFa9hGWSYPJ+wwnT5tim5fA/VT7IE0MLlQwaendejKtsXkalcPU1eIbVDPqybijG4/Var0MOpgpL0MV8uMVhRZxpSZbVwBskH2NHpUSmUVYxHlQkLuiUQZxagY+/m8bZvZWlBilz+VRUqZc5xa6K1Fp9lct9XVnsdlS/sS9nkHHK1YdobznVs5TBo54mKdDVo41SIQwbn2blXwYtHGqRsYYJIhBGbYzFLC2cVQFm9EIEJPfpRbFAGzkaixM/IcjakQhq8abf6JWxWCBvSfmf+hvGTaaIQ1oiEj//2Q=="
     }
   ]
 }
