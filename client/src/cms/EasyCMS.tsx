@@ -136,48 +136,53 @@ const EasyCMS: React.FC<Props> = ({ width, reloadPreview, dragging }) => {
     setFailure(false);
   };
   return (
-    <div
-      ref={containerRef}
-      className={width < 600 ? "mobile-container" : styles.container}
-      style={dragging ? { display: "none" } : {}}
-    >
-      <Snackbar
-        open={success}
-        autoHideDuration={5000}
-        onClose={handleClose}
-        message={"Erfolgreich gespeichert"}
-      />
-      <Snackbar
-        open={failure}
-        autoHideDuration={5000}
-        onClose={handleCloseFailure}
-        message={"Speichern fehlgeschlagen"}
-      />
-      <Navbar width={width} />
-      <div className={styles.inner}>
-        <Routes>
-          {pages.map((page) => (
-            <Route
-              key={page.slug}
-              path={page.path}
-              element={
-                <Wrapper
-                  component={page.element}
-                  slug={page.slug}
-                  setPreview={reloadPreview}
-                  data={data[page.part]}
-                  setData={(partial) =>
-                    setData({ ...data, [page.part]: partial })
-                  }
-                />
-              }
-            />
-          ))}
-        </Routes>
+    <div className={styles.cms}>
+      <div className={styles.background}>
+        <img alt="Background" src={"/background.jpg"} />
       </div>
+      <div
+        ref={containerRef}
+        className={width < 600 ? "mobile-container" : styles.container}
+        style={dragging ? { display: "none" } : {}}
+      >
+        <Snackbar
+          open={success}
+          autoHideDuration={5000}
+          onClose={handleClose}
+          message={"Erfolgreich gespeichert"}
+        />
+        <Snackbar
+          open={failure}
+          autoHideDuration={5000}
+          onClose={handleCloseFailure}
+          message={"Speichern fehlgeschlagen"}
+        />
+        <Navbar width={width} />
+        <div className={styles.inner}>
+          <Routes>
+            {pages.map((page) => (
+              <Route
+                key={page.slug}
+                path={page.path}
+                element={
+                  <Wrapper
+                    component={page.element}
+                    slug={page.slug}
+                    setPreview={reloadPreview}
+                    data={data[page.part]}
+                    setData={(partial) =>
+                      setData({ ...data, [page.part]: partial })
+                    }
+                  />
+                }
+              />
+            ))}
+          </Routes>
+        </div>
 
-      <div className={styles.controls}>
-        <button onClick={() => save()}>Speichern</button>
+        <div className={styles.controls}>
+          <button onClick={() => save()}>Speichern</button>
+        </div>
       </div>
     </div>
   );

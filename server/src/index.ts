@@ -19,22 +19,19 @@ dotenv.config();
 // Database configuration
 //####################################
 
-if (process.env.DB_CONNECTION === undefined)
-  console.log("Error: Need to supply MongoDB connection string");
-else
-  mongoose
-    .connect(process.env.DB_CONNECTION, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false,
-    })
-    .then(() => {
-      console.log("Connected to mongodb database");
-    })
-    .catch((e) => {
-      console.log(e);
-    });
+mongoose
+  .connect(process.env.DB_CONNECTION!, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+  })
+  .then(() => {
+    console.log("Connected to mongodb database");
+  })
+  .catch((e) => {
+    console.log(e);
+  });
 
 //####################################
 // Express configuration

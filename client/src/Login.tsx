@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import axios from "axios";
+import styles from "./cms/EasyCMS.module.css"
 
 interface Props {
   setLoggedIn: (val: boolean) => void;
@@ -27,7 +28,7 @@ function Login(props: Props) {
   };
 
   return (
-    <div className={"App"}>
+    <div className={styles.cms}>
       <form className={"Login"} onSubmit={login}>
         <p>Login</p>
 
