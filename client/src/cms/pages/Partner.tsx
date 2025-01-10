@@ -1,8 +1,8 @@
 import React from "react";
 import Line from "../components/Line.tsx";
-import { MinusButton } from "../components/Button/Button.tsx";
+import { MinusButton } from "../components/Button/button.tsx";
 import { ComponentParams } from "./Wrapper.tsx";
-import { CuisineType, PartnerType } from "../EasyCMS.tsx";
+import { PartnerType } from "../EasyCMS.tsx";
 
 function Partner({ data, setData }: ComponentParams<PartnerType>) {
   const addCategory = () => {
@@ -21,7 +21,7 @@ function Partner({ data, setData }: ComponentParams<PartnerType>) {
           />
         </Line>
         {data.categories.map((category, categoryIndex) => {
-          const setCategory = (newCategory: any) => {
+          const setCategory = (newCategory: PartnerType["categories"][0]) => {
             const newCategories = data.categories.slice();
             newCategories[categoryIndex] = newCategory;
             setData({ ...data, categories: newCategories });
@@ -60,7 +60,7 @@ function Partner({ data, setData }: ComponentParams<PartnerType>) {
                 </div>
               </Line>
               {category.partners.map((partner, partnerIndex) => {
-                const setPartner = (newPartner: any) => {
+                const setPartner = (newPartner: PartnerType["categories"][0]["partners"][0]) => {
                   const newPartners = category.partners.slice();
                   newPartners[partnerIndex] = newPartner;
                   setCategory({ ...category, partners: newPartners });

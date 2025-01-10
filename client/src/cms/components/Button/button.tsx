@@ -1,5 +1,5 @@
 import styles from "./button.module.css";
-import { ButtonHTMLAttributes, CSSProperties } from "react";
+import React, { ButtonHTMLAttributes, CSSProperties } from "react";
 
 export const MinusButton = (props: ButtonHTMLAttributes<HTMLButtonElement>) => {
   const style: CSSProperties = {

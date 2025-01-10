@@ -1,15 +1,15 @@
 import React from "react";
 import ImageUpload from "../components/imageUpload.tsx";
 import Line from "../components/Line.tsx";
-import Gallery from "../components/Gallery/Gallery.tsx";
+import Gallery from "../components/Gallery/gallery.tsx";
 import { HomeType } from "../EasyCMS.tsx";
 import { ComponentParams } from "./Wrapper.tsx";
 
-const Home = ({ data, setData }: ComponentParams<HomeType>) => {
+const Home = ({ data, setData, slug }: ComponentParams<HomeType>) => {
   return (
     <div className="Home">
       <div style={{ position: "relative" }}>
-        <Info data={data} setData={setData} />
+        <Info data={data} setData={setData} slug={slug} />
 
         <Line>
           <p>Titelbild</p>
@@ -22,7 +22,7 @@ const Home = ({ data, setData }: ComponentParams<HomeType>) => {
                 ...data,
                 titleImage: {
                   ...data.titleImage,
-                  ...(image as any),
+                  ...image,
                 },
               });
             }}
@@ -90,12 +90,7 @@ const Home = ({ data, setData }: ComponentParams<HomeType>) => {
   );
 };
 
-interface InfoProps {
-  data: any;
-  setData: (a: any) => void;
-}
-
-const Info = ({ data, setData }: InfoProps) => {
+const Info = ({ data, setData }: ComponentParams<HomeType>) => {
   return (
     <>
       <Line>

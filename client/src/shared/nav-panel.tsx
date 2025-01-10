@@ -4,19 +4,16 @@ import { Route, Routes } from "react-router-dom";
 import Landing from "./landing";
 import CmsWrapper from "../cms/CmsWrapper";
 
-const NavPanel = () => {
+const NavPanel = ({ logout }: { logout: () => void }) => {
   return (
     <>
       <div className={"logout"}>
-        <button
-          onClick={() => console.error("TODO implement logout")}
-          className={"logoutButton"}
-        >
+        <button onClick={logout} className={"logoutButton"}>
           <img alt="Logout" src={"/logout.svg"} />
         </button>
       </div>
       <Routes>
-        <Route path={"/cms/*"} element={<CmsWrapper logout={() => {}} />} />
+        <Route path={"/cms/*"} element={<CmsWrapper />} />
         <Route path={"/bills/"} element={<Bills />} />
         <Route path={"/"} element={<Landing />} />
       </Routes>

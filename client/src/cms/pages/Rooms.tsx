@@ -1,6 +1,6 @@
 import React from "react";
 import Line from "../components/Line.tsx";
-import Gallery from "../components/Gallery/Gallery.tsx";
+import Gallery from "../components/Gallery/gallery.tsx";
 import { ComponentParams } from "./Wrapper.tsx";
 import { RoomsType } from "../EasyCMS.tsx";
 
@@ -40,7 +40,7 @@ function Rooms({ data, setData }: ComponentParams<RoomsType>) {
           <p>Gallerie</p>
           <Gallery
             slug={"/rooms"}
-            images={data.images.map((img) => ({ alt: "an image", ...img }))}
+            images={data.images.map((img) => ({ ...img }))}
             setImages={(images) => setData({ ...data, images })}
           />
         </Line>

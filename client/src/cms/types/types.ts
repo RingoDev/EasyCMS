@@ -3,5 +3,5 @@ export interface Picture {
   alt: string;
   width: number;
   height: number;
-  blurDataURL?: string;
+  blurDataURL: string;
 }

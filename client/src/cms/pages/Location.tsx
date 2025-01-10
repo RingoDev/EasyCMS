@@ -1,6 +1,6 @@
 import React from "react";
 import Line from "../components/Line.tsx";
-import Gallery from "../components/Gallery/Gallery.tsx";
+import Gallery from "../components/Gallery/gallery.tsx";
 import { ComponentParams } from "./Wrapper.tsx";
 import { LocationType } from "../EasyCMS.tsx";
 
@@ -9,7 +9,7 @@ function Location({ data, setData }: ComponentParams<LocationType>) {
     <div className="Lokal">
       <div style={{ position: "relative" }}>
         {data.locations.map((location, index) => {
-          const setLocation = (newLocation: any) => {
+          const setLocation = (newLocation: LocationType["locations"][0]) => {
             const newLocations = data.locations.slice();
             newLocations[index] = newLocation;
             setData({ ...data, locations: newLocations });
@@ -39,7 +39,6 @@ function Location({ data, setData }: ComponentParams<LocationType>) {
                 <Gallery
                   slug={"/location"}
                   images={location.images.map((img) => ({
-                    alt: "an Image",
                     ...img,
                   }))}
                   setImages={(images) => setLocation({ ...location, images })}

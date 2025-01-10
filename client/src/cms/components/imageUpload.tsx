@@ -25,10 +25,10 @@ const ImageUpload: React.FC<Props> = ({ slug, setImageData, imageData }) => {
    */
   const handleImageChange = (e: ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
-    let reader = new FileReader();
+    const reader = new FileReader();
     // only take the first file
     if (e.target.files && e.target.files.length > 0) {
-      let file = e.target.files[0];
+      const file = e.target.files[0];
 
       // show Image
       setUploadedFileURL(URL.createObjectURL(file));

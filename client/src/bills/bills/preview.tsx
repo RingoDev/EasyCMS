@@ -27,7 +27,7 @@ const Preview: React.FC<{
 
 export default Preview;
 
-const PDFViewer: React.FC<{ file: any; width: number }> = (props) => {
+const PDFViewer: React.FC<{ file: Blob | null; width: number }> = (props) => {
   const [numPages, setNumPages] = useState<number>(0);
 
   return useMemo(

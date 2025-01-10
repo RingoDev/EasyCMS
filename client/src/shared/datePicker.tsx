@@ -14,7 +14,7 @@ const MyDatePicker: React.FC<Props> = (props) => {
       label={"Datum"}
       format="dd/MM/yyyy"
       value={props.date}
-      onChange={(v: any) => {
+      onChange={(v) => {
         if (v !== null) {
           props.setDate(new Date(v.getTime()));
         }

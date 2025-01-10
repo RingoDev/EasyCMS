@@ -62,7 +62,6 @@ const Bills = () => {
     }, 700);
     return () => clearTimeout(timeoutId);
     // eslint wants "update" as a dependency which would create an endless loop
-    //eslint-disable-next-line
   }, [documentProps]);
 
   return (
@@ -101,16 +100,14 @@ const Bills = () => {
         <div className={"container"}>
           <ResizableColumns>
             {[
-              ({ width, dragging }) => (
+              ({ width }) => (
                 <PDFInputs
                   width={width}
                   document={documentProps}
                   setDocument={setDocumentProps}
                 />
               ),
-              ({ width, dragging }) => (
-                <Preview instance={instance} width={width} />
-              ),
+              ({ width }) => <Preview instance={instance} width={width} />,
             ]}
           </ResizableColumns>
         </div>

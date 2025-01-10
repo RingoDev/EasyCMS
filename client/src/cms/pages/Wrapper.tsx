@@ -35,7 +35,7 @@ function Wrapper<T extends ComponentType>({
           import.meta.env.BACKEND_URL + "/api/vessel" + slug + "?preview=1",
           dataToSave,
         )
-        .then((_r) => {
+        .then(() => {
           console.log("Saving Preview data", dataToSave);
           setPreview();
         })

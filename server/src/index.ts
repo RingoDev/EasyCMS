@@ -37,7 +37,6 @@ mongoose
 // Express configuration
 //####################################
 
-// TODO dont use in production
 const disableAuthentication = process.env.DISABLE_AUTHENTICATION === "true";
 
 // Create a new express app instance

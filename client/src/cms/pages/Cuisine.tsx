@@ -1,10 +1,10 @@
 import React from "react";
 import Line from "../components/Line.tsx";
-import { MinusButton } from "../components/Button/Button.tsx";
+import { MinusButton } from "../components/Button/button.tsx";
 import { ComponentParams } from "./Wrapper.tsx";
 import { CuisineType } from "../EasyCMS.tsx";
 
-const Cuisine = ({ data, setData, slug }: ComponentParams<CuisineType>) => {
+const Cuisine = ({ data, setData }: ComponentParams<CuisineType>) => {
   const addTopic = () => {
     const newTopics = data.menu.slice();
     newTopics.push({ name: "", dishes: [] });

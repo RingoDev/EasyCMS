@@ -1,15 +1,20 @@
-import React from "react";
+import React, {ReactNode} from "react";
 import { useState } from "react";
 import "./AuthWrapper.css";
 import Login from "../Login";
+import axios from "axios";
 
-const AuthWrapper = (props: React.PropsWithChildren) => {
+const AuthWrapper = (props: { children: (v: () => void) => ReactNode }) => {
   const [loggedIn, setLoggedIn] = useState(false);
-
+  const handleLogout = () => {
+    axios
+      .get(import.meta.env.BACKEND_URL! + "/api/auth/logout")
+      .then(() => setLoggedIn(false));
+  };
   if (!loggedIn) {
     return <Login setLoggedIn={setLoggedIn}></Login>;
   }
-  return props.children;
+  return props.children(handleLogout);
 };
 
 export default AuthWrapper;

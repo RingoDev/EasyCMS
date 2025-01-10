@@ -22,7 +22,7 @@ const uploadImageToServer = (
         alt?: string;
         height: number;
         width: number;
-        blurDataURL?: string;
+        blurDataURL: string;
       }>(import.meta.env.VITE_BACKEND_URL! + "/api/image" + slug, formData, {
         onUploadProgress: (p) => {
           setProgress(p.loaded / (p.total ? p.total : 100_000));

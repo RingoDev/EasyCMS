@@ -24,7 +24,9 @@ function App() {
               adapterLocale={de}
             >
               <AuthWrapper>
-                <NavPanel />
+                {(logout) => (
+                    <NavPanel logout={logout} />
+                )}
               </AuthWrapper>
             </LocalizationProvider>
           </ThemeProvider>

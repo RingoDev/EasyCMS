@@ -2,7 +2,7 @@ import React, { ChangeEvent, useRef, useState } from "react";
 import { Picture } from "../../types/types";
 import styles from "./gallery.module.css";
 import uploadImage from "../../lib/uploadImage";
-import { MinusButton, PlusButton } from "../Button/Button";
+import { MinusButton, PlusButton } from "../Button/button.tsx";
 
 interface Props {
   images: Picture[];
@@ -22,10 +22,10 @@ const Gallery: React.FC<Props> = ({ images, setImages, slug }) => {
   };
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    let reader = new FileReader();
+    const reader = new FileReader();
     // only take the first file
     if (e.target.files && e.target.files.length > 0) {
-      let file = e.target.files[0];
+      const file = e.target.files[0];
 
       uploadImage(reader, file, slug, e, setProgress)
         .then((r) => addPicture(r))

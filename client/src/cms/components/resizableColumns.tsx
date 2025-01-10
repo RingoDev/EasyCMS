@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import useResizeHandle from "../hooks/useResizeHandle";
-import useWindowSize from "../hooks/useWindowSize";
+import useWindowSize from "../../hooks/useWindowSize";
+import useResizeHandle from "../../hooks/useResizeHandle.ts";
 
 interface ResizableColumnsParams {
   width: number;

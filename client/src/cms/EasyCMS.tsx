@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./EasyCMS.css";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/navbar.tsx";
 import { Route, Routes } from "react-router-dom";
 import axios from "axios";
-import useWindowSize from "./hooks/useWindowSize";
 import Wrapper from "./pages/Wrapper";
 import { Snackbar } from "@mui/material";
 import partnerData from "./data/partner.json";
@@ -14,6 +13,7 @@ import roomsData from "./data/rooms.json";
 import locationData from "./data/location.json";
 import styles from "./EasyCMS.module.css";
 import pages from "./pages/pages.ts";
+import useWindowSize from "../hooks/useWindowSize.ts";
 
 export interface Data {
   home: HomeType;

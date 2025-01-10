@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import axios from "axios";
-import styles from "./cms/EasyCMS.module.css"
+import styles from "./cms/EasyCMS.module.css";
 
 interface Props {
   setLoggedIn: (val: boolean) => void;
@@ -13,7 +13,7 @@ function Login(props: Props) {
 
   const login: React.FormEventHandler<HTMLFormElement> = (e) => {
     e.preventDefault();
-    console.debug("Logging in")
+    console.debug("Logging in");
     axios
       .post(import.meta.env.VITE_BACKEND_URL! + "/api/auth/login", {
         email: username,
@@ -46,7 +46,7 @@ function Login(props: Props) {
         />
         <br />
 
-        <input className={"submit"} type={"submit"} value={"Einloggen"}/>
+        <input className={"submit"} type={"submit"} value={"Einloggen"} />
       </form>
     </div>
   );
