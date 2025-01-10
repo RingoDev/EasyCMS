@@ -12,7 +12,7 @@ const NavPanel = () => {
           onClick={() => console.error("TODO implement logout")}
           className={"logoutButton"}
         >
-          <img alt="Logout" src={"/Logout-Symbol.svg"} />
+          <img alt="Logout" src={"/logout.svg"} />
         </button>
       </div>
       <Routes>
